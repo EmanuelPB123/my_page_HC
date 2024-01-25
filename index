@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi sitio web</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Estilos para pantallas grandes (pc) */
+        @media (min-width: 1200px) {
+            header {
+                background-color: #666;
+            }
+        }
+
+        /* Estilos para pantallas medianas (tablet) */
+        @media (min-width: 768px) and (max-width: 991px) {
+            header {
+                background-color: #999;
+            }
+        }
+
+        /* Estilos para pantallas pequeñas (celular) */
+        @media (max-width: 767px) {
+            header {
+                background-color: #ccc;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a mi sitio web</h1>
+    </header>
+</body>
+</html>

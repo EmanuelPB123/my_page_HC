@@ -8,3 +8,7 @@ navbarToggle.addEventListener('click', () => {
   // Toggle the display property of the dropdown menu
   navbarMenu.style.display = navbarMenu.style.display === 'block' ? 'none' : 'block';
 });
+
+$('.carousel').carousel({
+  interval: 2500
+})
